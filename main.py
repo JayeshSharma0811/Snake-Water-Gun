@@ -7,7 +7,7 @@ import random
 
 '''
 
-Computer = random.choice([bqa-1,0,1])
+Computer = random.choice([-1,0,1])
 youStr = input("Enter Your Choice:- ")
 youDict = {"Snake": 1, "Water": -1, "Gun": 0}
 reverseDict = {1: "Snake", -1: "Water", 0: "Gun"}
